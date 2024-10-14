@@ -1,0 +1,26 @@
+[
+  {
+    "header": "Front-end Development",
+    "body": "Writing clean, efficient, and maintainable code using HTML, CSS, JavaScript, and frameworks like Tailwind and React."
+  },
+  {
+    "header": "Interactive Animations",
+    "body": "Adding dynamic elements to improve the user experience using CSS animations, JavaScript, or libraries like Framer motion."
+  },
+  {
+    "header": "Responsive Web Design",
+    "body": "Creating mobile-friendly websites that work seamlessly across all devices."
+  },
+  {
+    "header": "User Interface (UI) Design",
+    "body": "Creating visually appealing and user-friendly interfaces that enhance the overall user experience."
+  },
+  {
+    "header": "User Experience (UX) Design",
+    "body": "Enhancing user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction with the product."
+  },
+  {
+    "header": "Prototyping and Wireframing",
+    "body": "Developing interactive prototypes and wireframes to visualize and test design concepts."
+  }
+]
