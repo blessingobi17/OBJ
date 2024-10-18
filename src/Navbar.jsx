@@ -46,7 +46,9 @@ const Navbar = ({
      flex  justify-between items-center sticky top-0 z-50"
     >
       <div>
-        <h1 className="text-2xl font-bold font-Spartan">O B J.</h1>
+        <a href="" className="text-2xl font-bold font-Spartan">
+          O B J.
+        </a>
       </div>
       <div
         className="lg:hidden block cursor-pointer"
