@@ -43,7 +43,7 @@ const About = ({ aboutRef }) => {
           </p>
         </section>
         <div className="flex flex-wrap lg:gap-0 gap-10 lg:justify-between justify-center w-full pt-10 text-white text-sm font-light">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center stack">
             <img
               src="/assets/images/react.png"
               alt=""
@@ -51,7 +51,7 @@ const About = ({ aboutRef }) => {
             />
             <p>React</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center stack">
             <img
               src="/assets/images/javascript.png"
               alt=""
@@ -59,7 +59,7 @@ const About = ({ aboutRef }) => {
             />
             <p>JavaScript</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center stack">
             <img
               src="/assets/images/tailwind.png"
               alt=""
@@ -67,7 +67,7 @@ const About = ({ aboutRef }) => {
             />
             <p>Tailwind CSS</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center stack">
             <img
               src="/assets/images/framer.png"
               alt=""
@@ -75,7 +75,7 @@ const About = ({ aboutRef }) => {
             />
             <p>Framer Motion</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center stack">
             <img
               src="/assets/images/swiper.png"
               alt=""
@@ -83,7 +83,7 @@ const About = ({ aboutRef }) => {
             />
             <p>Swiper JS</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center stack">
             <img
               src="/assets/images/git.png"
               alt=""
@@ -91,16 +91,11 @@ const About = ({ aboutRef }) => {
             />
             <p>Git</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center stack">
             <img src="/assets/images/figma.png" alt="" className="h-10  mb-2" />
             <p>Figma</p>
           </div>
         </div>
-        {/* <a href="/doc/Obi Blessing CV.pdf" target="blank">
-          <button className="px-8 py-2 rounded-full bg-Yellow text-black font-semibold text-sm mt-4 outline-none">
-            Download CV
-          </button>
-        </a> */}
       </motion.div>
     </main>
   );

@@ -25,7 +25,7 @@ const Contact = ({ contactRef }) => {
         className="w-full"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={variants}
       >
         <section className="text-center text-white">

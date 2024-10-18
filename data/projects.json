@@ -7,7 +7,9 @@
     "stack1": "React",
     "stack2": "Tailwind CSS",
     "prompt1": "Demo",
-    "prompt2": "Code"
+    "prompt2": "Code",
+    "demoLink": "https://nature-nomad.vercel.app/",
+    "codeLink": "https://github.com/blessingobi17/nature_nomad"
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "stack1": "React",
     "stack2": "Tailwind CSS",
     "prompt1": "Demo",
-    "prompt2": "Code"
+    "prompt2": "Code",
+    "demoLink": "https://windmill-iota.vercel.app/",
+    "codeLink": "https://github.com/blessingobi17/Windmill"
   },
   {
     "id": 3,
@@ -27,7 +31,9 @@
     "stack1": "React",
     "stack2": "Tailwind CSS",
     "prompt1": "Demo",
-    "prompt2": "Code"
+    "prompt2": "Code",
+    "demoLink": "https://blessingobi17.github.io/monica/",
+    "codeLink": "https://github.com/blessingobi17/monica"
   },
   {
     "id": 4,
@@ -35,7 +41,8 @@
     "header": "Dish Diary Recipe App Design",
     "body": "Dish Diary is a cutting-edge recipe app designed to revolutionize the way users approach cooking. The app features a vast collection  of recipes with advanced Al chat features and the convenience of online grocery shopping.",
     "stack1": "Figma",
-    "prompt1": "Demo"
+    "prompt1": "Demo",
+    "demoLink": "https://www.behance.net/gallery/205871717/Dish-Diary"
   },
   {
     "id": 4,
@@ -43,7 +50,8 @@
     "header": "Digit App Design",
     "body": "An all inclusive and very easy to use app designed to help people reach their goals the easy way by managing their money, analyze their spending to find the perfect amount to save, auto-save money out of their bank account every few days and withdraw anytime.",
     "stack1": "Figma",
-    "prompt1": "Demo"
+    "prompt1": "Demo",
+    "demoLink": "https://www.behance.net/gallery/192818919/Digit-App-Design-Case-Study"
   },
   {
     "id": 4,
@@ -51,6 +59,7 @@
     "header": "Swavy E-commerce Landing Page",
     "body": "Swavy is an online store I had the pleasure of designing. The goal was to create an easy to use platform that lets users explore a wide range of stylish men's and women's collections. I focused on a clean, modern design that highlights the products without overwhelming the user.",
     "stack1": "Figma",
-    "prompt1": "Demo"
+    "prompt1": "Demo",
+    "demoLink": "https://www.behance.net/gallery/204214501/Swavy-E-commerce-Landing-Page"
   }
 ]

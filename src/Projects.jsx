@@ -21,7 +21,7 @@ const Projects = ({ projectsRef }) => {
       y: 0,
       transition: {
         delay: i * 0.1,
-        duration: 0.6,
+        duration: 0.4,
         ease: "easeInOut",
       },
     }),
@@ -32,7 +32,7 @@ const Projects = ({ projectsRef }) => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.5 }}
           variants={headerVariant}
         >
           <h1 className="md:text-8xl text-7xl text-DarkGrey brightness-header font-Spartan">
@@ -80,11 +80,16 @@ const Projects = ({ projectsRef }) => {
               </div>
             </div>
             <div className="pt-4 text-white flex gap-4 text-sm">
-              <a href="" className="flex items-center gap-1 hover:text-Yellow">
+              <a
+                href={project.demoLink}
+                target="blank"
+                className="flex items-center gap-1 hover:text-Yellow"
+              >
                 {project.prompt1} <FaEye />
               </a>
               <a
-                href=""
+                href={project.codeLink}
+                target="blank"
                 className={`flex items-center gap-1 hover:text-Yellow ${
                   project.id === 4 ? "hidden" : ""
                 }`}

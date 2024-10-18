@@ -20,7 +20,7 @@ const Services = ({ servicesRef }) => {
       y: 0,
       transition: {
         delay: i * 0.1,
-        duration: 0.6,
+        duration: 0.4,
         ease: "easeInOut",
       },
     }),
@@ -31,7 +31,7 @@ const Services = ({ servicesRef }) => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.5 }}
           variants={headerVariant}
         >
           <h1 className="md:text-8xl text-7xl text-DarkGrey brightness-header font-Spartan">
@@ -53,7 +53,7 @@ const Services = ({ servicesRef }) => {
             viewport={{ once: true, amount: 0.1 }}
             variants={variants}
           >
-            <div className="card bg-VeryDarkGrey p-10 hover:bg-Yellow transition duration-500 ease-in-out hover:text-black h-full">
+            <div className="card bg-VeryDarkGrey p-10 hover:bg-Yellow hover:text-black transition duration-500 ease-in-out h-full">
               <h3 className="text-Yellow text-2xl font-light pb-4">
                 {service.header}
               </h3>
