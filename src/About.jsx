@@ -32,7 +32,7 @@ const About = ({ aboutRef }) => {
             <span className="tracking-widest font-bold text-Yellow">
               HELLO!
             </span>
-            , I’m a Frontend Developer who specialize in creating user-friendly
+            , I’m a Frontend Developer who specializes in creating user-friendly
             interfaces and building responsive web applications that people
             enjoy using. I’m all about solving problems and making digital
             experiences engaging. Let’s create something amazing together. Below
