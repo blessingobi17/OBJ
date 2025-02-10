@@ -1,12 +1,6 @@
 import { useState, useEffect } from "react";
 
-const Navbar = ({
-  homeRef,
-  aboutRef,
-  servicesRef,
-  projectsRef,
-  contactRef,
-}) => {
+const Navbar = ({ homeRef, aboutRef, projectsRef, contactRef }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
@@ -15,7 +9,6 @@ const Navbar = ({
       const sections = [
         { ref: homeRef, id: "home" },
         { ref: aboutRef, id: "about" },
-        { ref: servicesRef, id: "services" },
         { ref: projectsRef, id: "projects" },
         { ref: contactRef, id: "contact" },
       ];
@@ -85,14 +78,6 @@ const Navbar = ({
           }`}
         >
           About
-        </li>
-        <li
-          onClick={() => scrollToSection(servicesRef)}
-          className={`relative navLink cursor-pointer ${
-            activeSection === "services" ? "text-Yellow" : ""
-          }`}
-        >
-          Services
         </li>
         <li
           onClick={() => scrollToSection(projectsRef)}

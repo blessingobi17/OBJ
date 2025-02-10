@@ -58,9 +58,7 @@ const Projects = ({ projectsRef }) => {
               <img
                 src={project.image}
                 alt=""
-                className={`h-full w-full ${
-                  project.id === 3 ? "object-contain" : "object-fill"
-                }`}
+                className="h-full w-full object-contain"
               />
             </div>
             <div className="pt-4 text-white">
@@ -70,11 +68,7 @@ const Projects = ({ projectsRef }) => {
                 <button className="bg-gray-600 px-4 py-1 rounded-md text-sm cursor-default">
                   {project.stack1}
                 </button>
-                <button
-                  className={`bg-gray-600 px-4 py-1 rounded-md text-sm cursor-default ${
-                    project.id === 4 ? "hidden" : ""
-                  }`}
-                >
+                <button className="bg-gray-600 px-4 py-1 rounded-md text-sm cursor-default">
                   {project.stack2}
                 </button>
               </div>
@@ -90,9 +84,7 @@ const Projects = ({ projectsRef }) => {
               <a
                 href={project.codeLink}
                 target="blank"
-                className={`flex items-center gap-1 hover:text-Yellow ${
-                  project.id === 4 ? "hidden" : ""
-                }`}
+                className="flex items-center gap-1 hover:text-Yellow"
               >
                 {project.prompt2} <FaGithub />
               </a>

@@ -32,14 +32,11 @@ const About = ({ aboutRef }) => {
             <span className="tracking-widest font-bold text-Yellow">
               HELLO!
             </span>
-            , I'm Obi Blessing, a passionate web developer and UI/UX designer.
-            I’m enthusiastic about creating seamless user experiences grounded
-            in solid design principles. I enjoy working in collaborative
-            settings where ideas can flow, and concepts quickly become reality.
-            Whether I'm building responsive web applications or enhancing user
-            interfaces, my focus is always on delivering high-quality solutions.
-            I'd love to connect and discuss how we can bring your next
-            project to life. Below are the tools and technologies I work with:
+            , I’m a Frontend Developer who specialize in creating user-friendly
+            interfaces and building responsive web applications that people
+            enjoy using. I’m all about solving problems and making digital
+            experiences engaging. Let’s create something amazing together. Below
+            are the tools and technologies I work with:
           </p>
         </section>
         <div className="flex flex-wrap lg:gap-0 gap-10 lg:justify-between justify-center w-full pt-10 text-white text-sm font-light">
@@ -90,10 +87,6 @@ const About = ({ aboutRef }) => {
               className="h-10 w-10 mb-2"
             />
             <p>Git</p>
-          </div>
-          <div className="flex flex-col items-center stack">
-            <img src="/assets/images/figma.png" alt="" className="h-10  mb-2" />
-            <p>Figma</p>
           </div>
         </div>
       </motion.div>

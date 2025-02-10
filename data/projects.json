@@ -13,6 +13,18 @@
   },
   {
     "id": 2,
+    "image": "assets/images/residix.png",
+    "header": "Residix Real Estate Website",
+    "body": "I designed and developed a modern landing page for a real estate agency to showcase their properties and make it easy for potential buyers to get in touch. ",
+    "stack1": "React",
+    "stack2": "Tailwind CSS",
+    "prompt1": "Demo",
+    "prompt2": "Code",
+    "demoLink": "https://residix.vercel.app/",
+    "codeLink": "https://github.com/blessingobi17/Residix"
+  },
+  {
+    "id": 3,
     "image": "assets/images/windmill.png",
     "header": "Windmill Dashboard",
     "body": "This dashboard lets you easily manage your products, add, edit, or delete items with just a few clicks. It also features charts for tracking data and a dark mode option for a comfortable user experience.",
@@ -24,7 +36,7 @@
     "codeLink": "https://github.com/blessingobi17/Windmill"
   },
   {
-    "id": 3,
+    "id": 4,
     "image": "assets/images/monica.png",
     "header": "Monica Portfolio Website",
     "body": "This portfolio website is built for a market strategist, focusing on a clean design that showcases key projects and achievements. It’s easy to navigate, with a modern look that highlights strategic insights and expertise.",
@@ -34,32 +46,5 @@
     "prompt2": "Code",
     "demoLink": "https://blessingobi17.github.io/monica/",
     "codeLink": "https://github.com/blessingobi17/monica"
-  },
-  {
-    "id": 4,
-    "image": "assets/images/dishdiary.png",
-    "header": "Dish Diary Recipe App Design",
-    "body": "Dish Diary is a cutting-edge recipe app designed to revolutionize the way users approach cooking. The app features a vast collection  of recipes with advanced Al chat features and the convenience of online grocery shopping.",
-    "stack1": "Figma",
-    "prompt1": "Demo",
-    "demoLink": "https://www.behance.net/gallery/205871717/Dish-Diary"
-  },
-  {
-    "id": 4,
-    "image": "assets/images/digit.png",
-    "header": "Digit App Design",
-    "body": "An all inclusive and very easy to use app designed to help people reach their goals the easy way by managing their money, analyze their spending to find the perfect amount to save, auto-save money out of their bank account every few days and withdraw anytime.",
-    "stack1": "Figma",
-    "prompt1": "Demo",
-    "demoLink": "https://www.behance.net/gallery/192818919/Digit-App-Design-Case-Study"
-  },
-  {
-    "id": 4,
-    "image": "assets/images/swavy.png",
-    "header": "Swavy E-commerce Landing Page",
-    "body": "Swavy is an online store I had the pleasure of designing. The goal was to create an easy to use platform that lets users explore a wide range of stylish men's and women's collections. I focused on a clean, modern design that highlights the products without overwhelming the user.",
-    "stack1": "Figma",
-    "prompt1": "Demo",
-    "demoLink": "https://www.behance.net/gallery/204214501/Swavy-E-commerce-Landing-Page"
   }
 ]
