@@ -58,7 +58,7 @@ const Projects = ({ projectsRef }) => {
               <img
                 src={project.image}
                 alt=""
-                className="h-full w-full object-contain"
+                className="h-full w-full object-fill"
               />
             </div>
             <div className="pt-4 text-white">
